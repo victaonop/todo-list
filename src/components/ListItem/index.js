@@ -82,7 +82,6 @@ export default function CheckboxList() {
   }
 
   function removeTask(desc) {
-    console.log("desc", desc)
     var allTodo = JSON.parse(localStorage.getItem("todo"))
     var newTodo = allTodo.filter(e => e.description !== desc)
     localStorage.setItem('todo', JSON.stringify(newTodo));
