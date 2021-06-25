@@ -1,7 +1,6 @@
 import { Fade, Grid, TextField } from "@material-ui/core";
 import PropTypes from "prop-types";
-import React, { useEffect, useState } from "react";
-import * as _ from "lodash";
+import React, { useEffect } from "react";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { ModalContainer, PaperContainer } from "./styles";
 import { Controller, useForm } from "react-hook-form";

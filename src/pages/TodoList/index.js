@@ -1,27 +1,8 @@
 import { Grid } from "@material-ui/core";
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import GeneralContext from "../../GeneralContext";
 import CheckboxList from "../../components/ListItem";
 import Button from '../../components/Button/styles';
-
-
-const statusOptions = [
-    {
-        key: 0, value: "Todas"
-    },
-    {
-        key: 1, value: "Completas"
-    },
-    {
-        key: 2, value: "Incompletas"
-    },
-];
-
-const defaultCount = {
-    total: 0,
-    completed: 0,
-    incompleted: 0
-};
 
 function TodoList() {
     const {

@@ -9,7 +9,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 import IconButton from '@material-ui/core/IconButton';
 import EditIcon from '@material-ui/icons/Edit';
 import DeleteIcon from '@material-ui/icons/Delete';
-import { isEmpty, _arrayFilter } from 'lodash'
+import { isEmpty } from 'lodash'
 import GeneralContext from '../../GeneralContext';
 import { Grid, MenuItem, TextField } from '@material-ui/core';
 
@@ -58,26 +58,22 @@ export default function CheckboxList() {
   useEffect(() => {
     if (!isEmpty(todo)) {
       localStorage.setItem('todo', JSON.stringify(todo));
-      countTasks();
+      var completed = 0;
+      todo.forEach(item => {
+        if (item.checked === true) {
+          completed++
+        }
+      });
+      setTodoCount({
+        total: todo.length,
+        completed: completed,
+        incompleted: todo.length - completed
+      })
     }
   }, [todo]);
 
   function handleCheckboxes(description) {
     setTodo(todo.map(todo => todo.description === description ? { ...todo, checked: !todo.checked } : todo))
-  }
-
-  function countTasks() {
-    var completed = 0;
-    todo.forEach(item => {
-      if (item.checked == true) {
-        completed++
-      }
-    });
-    setTodoCount({
-      total: todo.length,
-      completed: completed,
-      incompleted: todo.length - completed
-    })
   }
 
   function editTask(desc) {
@@ -152,7 +148,7 @@ export default function CheckboxList() {
                             inputProps={{ 'aria-labelledby': index }}
                           />
                         </ListItemIcon>
-                        <ListItemText id={todo.id} primary={description} className="todo__description"/>
+                        <ListItemText id={todo.id} primary={description} className="todo__description" />
                         <ListItemSecondaryAction>
                           <IconButton edge="end" aria-label="comments" onClick={() => editTask(description)}>
                             <EditIcon />
