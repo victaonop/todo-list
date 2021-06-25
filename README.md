@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+<h1 align="center">
+   
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://www.linkedin.com/in/vitormguedes/">
+  <img alt="Made By" src="https://img.shields.io/static/v1?label=Made%20By&message=Vitor%20Guedes&color=black&style=for-the-badge">
+	</a>
+  
+  <img alt="Languages" src="https://img.shields.io/github/languages/count/victaonop/todo-list?style=for-the-badge">
+  
+  <img alt="Top Language" src="https://img.shields.io/github/languages/top/victaonop/todo-list?style=for-the-badge">
+  
+  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/victaonop/todo-list?style=for-the-badge">
+  
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/victaonop/todo-list?style=for-the-badge">
+</p>
 
-## Available Scripts
+<h4 align="center">
+  <p>To do list challange</p>
+  
+  <p>This is a frontend challenge to see how good are the developer skills.</p>
 
-In the project directory, you can run:
+  <p>
+  
+   The test consists in create a full application to list,create,delete and edit items from a todo-list. 
 
-### `yarn start`
+   This application is being devoloped with Node.js and React JS..
+  </p>
+</h4>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#eyes-check-it-out">Check it Out</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <!-- <a href="#art-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
+  <a href="#information_source-how-to-use">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <!-- <a href="#thumbsup-how-to-contribute">How to Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
+  <a href="#memo-license">License</a>
+</p>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :rocket: Technologies
 
-### `yarn build`
+This project was developed with the following technologies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-  [React JS](https://reactjs.org/)
+-  [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+-  [Styled-Components](https://styled-components.com/)
+-  [Context API](https://styled-components.com/)
+-  [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+-  [React Hook Form](https://react-hook-form.com/api)
+-  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :eyes: Check it Out
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You can try it here:
 
-### `yarn eject`
+-  [Todo List](https://simple-jewels-shop.netlify.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :information_source: How to use
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Clone this repository
+$ git clone https://github.com/victaonop/todo-list.git
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Go into the repository
+$ cd todo-list
 
-## Learn More
+# Install dependencies
+$ npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Run the application
+$ npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# You can now view client in the browser
+# On local: http://localhost:3000
+```
 
-### Code Splitting
+## :memo: License
+This project is under the MIT license. See the [LICENSE](https://github.com/victaonop/todo-list/blob/master/LICENSE) for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+<h4 align="center">
+    Made with by Vitor Guedes <a href="https://www.linkedin.com/in/vitormguedes/" target="_blank">Get in touch!</a>
+</h4>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[vc]: https://code.visualstudio.com/
+[vceditconfig]: https://todo-list.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://todo-list.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[demo]: https://simple-todo-list.netlify.app/
