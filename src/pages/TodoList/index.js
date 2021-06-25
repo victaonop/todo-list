@@ -16,7 +16,17 @@ function TodoList() {
         setTask,
     } = useContext(GeneralContext);
 
-    
+    function clearCompleted() {
+        var allTodo = JSON.parse(localStorage.getItem("todo"))
+        var newTodo = allTodo.filter(e => e.checked !== true)
+        localStorage.setItem('todo', JSON.stringify(newTodo));
+        setTodo(newTodo)
+        setSnackStatus(prevState => ({
+          ...prevState,
+          open: true,
+          text: "Tarefas limpas!",
+        }))
+    }
 
     useEffect(() => {
     }, []);
@@ -45,6 +55,11 @@ function TodoList() {
                 </Grid>
                 <Grid xs={12} lg={12} md={12}>
                     <CheckboxList></CheckboxList>
+                </Grid>
+                <Grid xs={12} lg={12} md={12} style={{ textAlign: 'right' , marginTop: "20px"}}>
+                    <Button onClick={() => clearCompleted()}>
+                        Limpar tarefas completas
+                    </Button>
                 </Grid>
             </GeneralContext.Provider>
         </>
