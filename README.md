@@ -56,7 +56,7 @@ This project was developed with the following technologies:
 
 You can try it here:
 
--  [Todo List](https://simple-todo-list.netlify.app/)
+-  [Todo List](https://standard-todo-list.netlify.app/)
 
 ## :information_source: How to use
 
@@ -91,4 +91,4 @@ This project is under the MIT license. See the [LICENSE](https://github.com/vict
 [vc]: https://code.visualstudio.com/
 [vceditconfig]: https://todo-list.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://todo-list.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[demo]: https://simple-todo-list.netlify.app/
+[demo]: https://standard-todo-list.netlify.app/
