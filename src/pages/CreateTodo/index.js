@@ -53,6 +53,7 @@ function TodoList() {
             allTodo.push({ checked : false, description: value.description})
             localStorage.setItem('todo', JSON.stringify(allTodo));
             setTodo(allTodo)
+            reset("");
         }
         setSnackStatus(prevState => ({
             ...prevState,
