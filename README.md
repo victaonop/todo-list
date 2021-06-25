@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vitormguedes/">
-  <img alt="Made By" src="https://img.shields.io/static/v1?label=Made%20By&message=Vitor%20Guedes&color=black&style=for-the-badge">
+  <img alt="Made By" src="https://img.shields.io/static/v1?label=Made%20By&message=Vitor%20Guedes&color=blue&style=for-the-badge">
 	</a>
   
   <img alt="Languages" src="https://img.shields.io/github/languages/count/victaonop/todo-list?style=for-the-badge">
@@ -56,7 +56,7 @@ This project was developed with the following technologies:
 
 You can try it here:
 
--  [Todo List](https://simple-jewels-shop.netlify.app/)
+-  [Todo List](https://simple-todo-list.netlify.app/)
 
 ## :information_source: How to use
 
