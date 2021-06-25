@@ -7,7 +7,7 @@
   <img alt="Made By" src="https://img.shields.io/static/v1?label=Made%20By&message=Vitor%20Guedes&color=blue&style=for-the-badge">
 	</a>
   
-  <img alt="Languages" src="https://img.shields.io/github/languages/count/victaonop/todo-list?style=for-the-badge">
+  <img alt="Languages" src="https://img.shields.io/github/languages/count/victaonop/todo-list?&color=blue&style=for-the-badge">
   
   <img alt="Top Language" src="https://img.shields.io/github/languages/top/victaonop/todo-list?style=for-the-badge">
   
